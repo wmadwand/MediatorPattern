@@ -81,6 +81,18 @@ namespace MediatorMS01
         }
     }
 
+    public class AnotherManagerMediator : IMediator
+    {
+        public Colleague customer;
+        public Colleague coder;
+        public Colleague tester;
+
+        void IMediator.Send(string msg, Colleague colleague)
+        {
+            // another way of collaboration
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
