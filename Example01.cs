@@ -85,9 +85,9 @@ namespace Mediator
         }
     }
 
-    class Program
+    class Program1
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             ManagerMediator mediator = new ManagerMediator();
             Colleague customer = new CustomerColleague(mediator);
